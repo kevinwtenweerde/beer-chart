@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/beer
+    username: beer
+    password: beer
+  flyway:
+    url: jdbc:postgresql://localhost:5432/beer
+    user: beer
+    password: beer
+    schemas: beer
+    table: schema_version
+    baseline-on-migrate: true
